@@ -11,6 +11,12 @@
       content="ie=edge"
     />
     <title>Moyo</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+    />
+
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -18,7 +24,6 @@
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
-      crossorigin="anonymous"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
@@ -34,17 +39,17 @@
     <header class="header">
       <a
         href="#logo"
-        class="logo"
+        class="header__logo"
       >
         <img
           src="images/logo.png"
-          alt="logo"
+          alt="Moyo logo"
         />
       </a>
 
-      <nav>
-        <ul class="nav">
-          <li class="nav__link is-active">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__link">
             <a
               class="nav__link__item is-active"
               href="#apple-section"
@@ -70,10 +75,11 @@
           </li>
           <li class="nav__link">
             <a
+              class="nav__link__item"
               href="#laptops-computers-section"
               data-qa="hover"
             >
-              Laptops&Computers
+              Laptops & Computers
             </a>
           </li>
           <li class="nav__link">
